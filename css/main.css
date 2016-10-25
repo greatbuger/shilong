@@ -1,0 +1,314 @@
+/* ===========
+   基本默认值
+   ===========*/
+
+html{
+    font-size: 62.5%;
+    color:#222;
+}
+::selection{
+    background-color: #b3d4fc;
+    text-shadow: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+/* ==========
+   工具样式
+   ========== */
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+/* ==========
+   浏览器更新提示样式
+   ========== */
+.browseupgrade{
+    margin: 0;
+    padding: 1rem;
+    background: #ccc;
+}
+
+/* ==========
+   自定义页面样式
+   ========== */
+
+body {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #0ae;
+    text-decoration: underline;
+}
+/* ==========
+   头部
+   ========== */
+
+header{
+    width: 100%;
+    background: black;
+    height: 102px;
+    border-bottom: 5px solid #7c7a65;
+
+}
+header .brand{
+    float: left;
+
+}
+header .main ul{
+    text-align: right;
+}
+header .main ul li{
+    display: inline-block;
+}
+header .main ul li + li {
+    border-left: 1px solid #555;
+}
+header .main ul li a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 102px;
+    color: #7c7a65;
+    text-decoration: none;
+}
+header .main ul li a:hover,
+header .main ul li a.active {
+    color: #ffb300;
+    background-color: #f8f6f1;
+}
+
+/* ==========
+   body-picture
+   ========== */
+.body-picture{
+    overflow: hidden;
+}
+/* ==========
+   main
+   ========== */
+.main{
+    height: 280px;
+}
+.news-1{
+    width: 340px;
+    border:1px solid #e8e8e8;
+
+}
+.news-2{
+    width: 540px;
+    border:1px solid #e8e8e8;
+
+}
+.news-3{
+    width: 340px;
+    border:1px solid #e8e8e8;
+
+}
+.news-1,.news-2,.news-3{
+    height: 280px;
+    float: left;
+}
+.title{
+    height: 35px;
+    border-bottom: 2px solid #e8e8e8;
+}
+.title_left{
+    margin-bottom: 1px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    width: 70%;
+    color: #090909;
+    float: left;
+    padding-left: 20px;
+}
+.title_right{
+    width: 20%;
+    float: right;
+    line-height: 35px;
+    text-align: right;
+    padding-right: 10px;
+}
+.title_right a{
+    text-decoration: none;
+    color:#999999;
+}
+.pic_news-1{
+    margin-top: 10px;
+    height: 80px;
+    line-height:22px;
+    width: 340px;
+}
+.pic_news-1 .pic{
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid #f00;
+
+}
+
+.pic img{
+    float: left;
+    border: 1px solid #f00;
+}
+.pic img a{
+    line-height:100px;     /*注意这行代码，惹是不写，得不到想要的结果哦*/
+    vertical-align:middle;
+    border:1px solid  #F00; /*颜色*/
+    text-align:left;
+}
+/* ==========
+   底部
+   ========== */
+footer {
+    width: 100%;
+    background-color: #222222;
+    padding: 3rem 0 5rem;
+}
+footer ul{
+    text-align: center;
+    color: #bcbcbc;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li+li{
+    border-left: 1px solid #555;
+}
+
+footer p{
+    text-align: center;
+    color: #bbbbbb;
+    font-size: 1.2rem;
+    margin: 2rem auto;
+}
+.list-main{
+    min_height:350px;
+    _height:350px;
+    background-color: white;
+    margin-top: 1px;
+}
+.news-type{
+    height: 350px;
+    width: 220px;
+    border: 1px solid #e8e8e8;
+    float: left;
+    background: url("../images/图层-8.");
+}
+.list-box{
+    min_height: 350px;
+    _height:350px;
+    width: 770px;
+    border: 1px solid #e8e8e8;
+    float: right;
+    background-color: white;
+}
+.news-type h2{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    height:55px;
+    background: url("../images/图层-7.png")no-repeat;
+    padding-top: -2px;
+
+}
+.news-type-content{
+    height: 375px;
+    background: url("../images/icon.png")repeat-x;
+}
+.news-type-content li{
+    list-style-type: none;
+    line-height: 30px;
+    height: 30px;
+}
+.news-type-content li a{
+    color:#666;
+    text-decoration: none;
+    background: url("../images/li_bg.gif")no-repeat left center;
+    padding-left: 15px;
+    display: block;
+}
+.news-type-content li a:hover{
+    color: #009cdf;
+    text-decoration: none;
+    background: url("../images/li_bg2.gif")no-repeat left center;
+    background-color: #f2f2f2;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
